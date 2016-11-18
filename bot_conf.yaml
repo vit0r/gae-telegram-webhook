@@ -1,0 +1,6 @@
+bot_conf:
+  apiTelegramUrl: https://api.telegram.org/bot
+  sendMessage: /sendmessage
+  urlSpaceCode: '%20'
+  token: 'bot token'
+  yourEndPoint: 'your end point to set webhook'
