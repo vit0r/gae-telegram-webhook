@@ -18,5 +18,5 @@ setup(
     include_package_data=True,
     platforms='any',
     test_suite='nose.collector',
-    install_requires=['httplib2==0.9.2', 'PyYAML==3.11', 'nose==1.3.7']
+    install_requires=['httplib2', 'PyYAML', 'nose']
 )
