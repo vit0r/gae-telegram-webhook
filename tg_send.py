@@ -18,7 +18,7 @@ class TGHookSend(object):
         """Get values from file bot_conf.yaml"""
         try:
             with open('bot_conf.yaml', mode='r') as bot_conf:
-                return yaml.load(bot_conf)['bot_conf']
+                return yaml.safe_load(bot_conf)['bot_conf']
         except ValueError as ex:
             raise ex
 
